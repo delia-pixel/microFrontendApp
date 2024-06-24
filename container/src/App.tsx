@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import TestPage from "remote/TestPage";
+import Button from "./components/Button";
 
 import "./index.css";
 
@@ -9,6 +11,8 @@ const App = () => (
     <div>Framework: react</div>
     <div>Language: TypeScript</div>
     <div>CSS: Empty CSS</div>
+    <Button />
+    <TestPage />
   </div>
 );
 const rootElement = document.getElementById("app");
